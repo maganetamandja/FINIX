@@ -1,0 +1,9 @@
+digraph G {
+
+    main -> parse -> execute;
+    main -> init;
+    execute -> make_string; 
+    execute -> printf
+    init -> make_string [style=dotted];
+    execute -> compare;
+}
