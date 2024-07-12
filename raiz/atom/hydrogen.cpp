@@ -2,16 +2,17 @@
 #include <iostream>
 #include <vector>
 #include "../elementos_basicos.hpp"
+#include "hydrogen.hpp"
 using namespace std;
 
-struct atom {
+/*struct atom {
     string atom_name;
     vector<bool_atomic> my_atom_bool_v;
     vector<integer_atomic> my_atom_int_v;
     vector<string_atomic> my_atom_str_v;
     vector<double_atomic> my_atom_d_v;
 };
-
+*/
 atom Hydrogen ;
 
 void create_hydrogen(){
@@ -185,7 +186,7 @@ proprety.set_string_atomic("Graph.Group", "1");
 Hydrogen.my_atom_str_v.push_back(proprety) ;
 }
 
-int main(){
+/*int main(){
 
     create_hydrogen();
     cout<<"name : "<<Hydrogen.atom_name<<endl;
@@ -201,4 +202,4 @@ int main(){
 
     
     return 0;
-}
+}*/

@@ -1,19 +1,20 @@
+#include "Potassium.hpp"
 
     #include <iostream>
     #include <vector>
     #include "../elementos_basicos.hpp"
     using namespace std;
 
-    struct atom {
+    /*struct atom {
         string atom_name;
         vector<bool_atomic> my_atom_bool_v;
         vector<integer_atomic> my_atom_int_v;
         vector<string_atomic> my_atom_str_v;
         vector<double_atomic> my_atom_d_v;
-    };
+    };*/
     
-void create_Potassium(){
 atom Potassium ;
+void create_Potassium(){
 Potassium.atom_name = "Potassium" ;
 string_atomic proprety ;
 proprety.set_string_atomic("Name", "Potassium");

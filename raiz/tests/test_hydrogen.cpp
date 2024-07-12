@@ -1,13 +1,13 @@
 #include <iostream>
 #include <vector>
 #include "../elementos_basicos.hpp"
-#include "../atom/hydrogen.hpp"
+#include "../atom/Hydrogen.hpp"
 using namespace std;
 
 
 int main(){
 
-    create_hydrogen();
+    create_Hydrogen();
 
     for (int i=0;i<Hydrogen.my_atom_str_v.size();++i){
 

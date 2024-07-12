@@ -15,7 +15,7 @@ struct atom {
     vector<string_atomic> my_atom_str_v;
     vector<double_atomic> my_atom_d_v;
 };
-//extern atom Hydrogen ;
+extern atom Hydrogen ;
 
 void create_hydrogen();
 

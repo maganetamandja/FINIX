@@ -1,19 +1,20 @@
+#include "Gadolinium.hpp"
 
     #include <iostream>
     #include <vector>
     #include "../elementos_basicos.hpp"
     using namespace std;
 
-    struct atom {
+    /*struct atom {
         string atom_name;
         vector<bool_atomic> my_atom_bool_v;
         vector<integer_atomic> my_atom_int_v;
         vector<string_atomic> my_atom_str_v;
         vector<double_atomic> my_atom_d_v;
-    };
+    };*/
     
-void create_Gadolinium(){
 atom Gadolinium ;
+void create_Gadolinium(){
 Gadolinium.atom_name = "Gadolinium" ;
 string_atomic proprety ;
 proprety.set_string_atomic("Name", "Gadolinium");
